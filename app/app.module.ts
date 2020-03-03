@@ -7,7 +7,7 @@ import { AboutPage } from '../pages/about/about';
 import { ContactPage } from '../pages/contact/contact';
 import { HomePage } from '../pages/home/home';
 import { TabsPage } from '../pages/tabs/tabs';
-import { Page1Page } from '../pages/page1/page1';
+import { AttributesPage } from '../pages/attributes/attributes';
 
 @NgModule({
   declarations: [
@@ -16,7 +16,7 @@ import { Page1Page } from '../pages/page1/page1';
     ContactPage,
     HomePage,
     TabsPage,
-    Page1Page
+    AttributesPage
   ],
   imports: [
     BrowserModule,
@@ -29,7 +29,7 @@ import { Page1Page } from '../pages/page1/page1';
     ContactPage,
     HomePage,
     TabsPage,
-    Page1Page
+    AttributesPage
   ],
   providers: [
     {provide: ErrorHandler, useClass: IonicErrorHandler}
