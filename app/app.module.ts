@@ -7,6 +7,7 @@ import { AboutPage } from '../pages/about/about';
 import { ContactPage } from '../pages/contact/contact';
 import { HomePage } from '../pages/home/home';
 import { TabsPage } from '../pages/tabs/tabs';
+import { Page1Page } from '../pages/page1/page1';
 
 @NgModule({
   declarations: [
@@ -14,7 +15,8 @@ import { TabsPage } from '../pages/tabs/tabs';
     AboutPage,
     ContactPage,
     HomePage,
-    TabsPage
+    TabsPage,
+    Page1Page
   ],
   imports: [
     BrowserModule,
@@ -26,7 +28,8 @@ import { TabsPage } from '../pages/tabs/tabs';
     AboutPage,
     ContactPage,
     HomePage,
-    TabsPage
+    TabsPage,
+    Page1Page
   ],
   providers: [
     {provide: ErrorHandler, useClass: IonicErrorHandler}
