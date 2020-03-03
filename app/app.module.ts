@@ -8,6 +8,9 @@ import { ContactPage } from '../pages/contact/contact';
 import { HomePage } from '../pages/home/home';
 import { TabsPage } from '../pages/tabs/tabs';
 import { AttributesPage } from '../pages/attributes/attributes';
+import { SkillsPage } from '../pages/skills/skills';
+import { WeaponsPage } from '../pages/weapons/weapons';
+import { HeaderPage } from '../pages/header/header';
 
 @NgModule({
   declarations: [
@@ -16,7 +19,10 @@ import { AttributesPage } from '../pages/attributes/attributes';
     ContactPage,
     HomePage,
     TabsPage,
-    AttributesPage
+    AttributesPage,
+    SkillsPage,
+    WeaponsPage,
+    HeaderPage
   ],
   imports: [
     BrowserModule,
@@ -29,7 +35,10 @@ import { AttributesPage } from '../pages/attributes/attributes';
     ContactPage,
     HomePage,
     TabsPage,
-    AttributesPage
+    AttributesPage,
+    SkillsPage,
+    WeaponsPage,
+    HeaderPage
   ],
   providers: [
     {provide: ErrorHandler, useClass: IonicErrorHandler}

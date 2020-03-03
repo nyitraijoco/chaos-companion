@@ -1,12 +1,11 @@
 import { Component } from '@angular/core';
 import { NavController } from 'ionic-angular';
-import { HeaderPage } from '../header/header';
 
 @Component({
-  selector: 'page-attributes',
-  templateUrl: 'attributes.html'
+  selector: 'page-weapons',
+  templateUrl: 'weapons.html'
 })
-export class AttributesPage {
+export class WeaponsPage {
 
   constructor(public navCtrl: NavController) {
 
