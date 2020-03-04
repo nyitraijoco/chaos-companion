@@ -6,9 +6,11 @@ import { NavController } from 'ionic-angular';
   templateUrl: 'header.html'
 })
 export class HeaderPage {
+  public name = 'Csúsz';
+  public race = 'Gyíklény';
+  public faith = 'Ateista';
 
   constructor(public navCtrl: NavController) {
-
   }
 
 }
