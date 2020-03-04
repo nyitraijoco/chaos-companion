@@ -7,7 +7,9 @@ import { HeaderPage } from '../header/header';
   templateUrl: 'attributes.html'
 })
 export class AttributesPage {
-
+  public physique: string;
+  public strength: string;
+  public constitution: string
   constructor(public navCtrl: NavController) {
 
   }

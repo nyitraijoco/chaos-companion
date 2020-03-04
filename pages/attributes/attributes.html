@@ -8,5 +8,39 @@
 </ion-header>
 
 <ion-content padding>
-
+<ion-grid>
+  <ion-row>
+    <ion-col>
+      <div  class="ion-text-center">
+        Főérték
+      </div>
+    </ion-col>
+    <ion-col>
+      Aktív
+    </ion-col>
+    <ion-col>
+      Passzív
+    </ion-col>
+  </ion-row>
+  <ion-row>
+    <ion-col>
+      <ion-item>
+        <ion-label position="stacked">Fizikum</ion-label>
+        <ion-input required type="text" value="{{physique}}" ></ion-input>
+      </ion-item>
+    </ion-col>
+    <ion-col>
+      <ion-item>
+        <ion-label position="stacked">Erő</ion-label>
+        <ion-input required type="text" value="{{strength}}" ></ion-input>
+      </ion-item>
+    </ion-col>
+    <ion-col>
+      <ion-item>
+        <ion-label position="stacked">Szívósság</ion-label>
+        <ion-input required type="text" value="{{constitution}}" ></ion-input>
+      </ion-item>
+    </ion-col>
+  </ion-row>
+</ion-grid>
 </ion-content>
